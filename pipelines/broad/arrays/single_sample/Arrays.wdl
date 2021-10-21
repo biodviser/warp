@@ -416,7 +416,7 @@ workflow Arrays {
     }
 
     # Only write fingerprints to the Mercury Fingerprint Store if writing is enabled AND the sample is NOT a control
-    if (write_fingerprint_to_mercury && (!defined(control_sample_name))) {
+    if (write_fingerprint_to_mercury) {
       call InternalTasks.UploadFingerprintToMercury {
         input:
           fingerprint_json_file = VcfToMercuryFingerprintJson.output_json_file,

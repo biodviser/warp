@@ -4,7 +4,7 @@
 
   "Arrays.sample_alias": "NA12878",
   "Arrays.sample_id": "SM-KXQIP",
-  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:KXQIP",
+  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:KXQIP_Invalid",
   "Arrays.reported_gender": "Female",
   "Arrays.collaborator_participant_id": "NA12878",
   "Arrays.participant_id": "PT-KLZD",
@@ -21,6 +21,9 @@
 
   "Arrays.green_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSAMD-24v3-0-EA_20034606_A1/idats/205346990020_R01C01/205346990020_R01C01_Grn.idat",
   "Arrays.red_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSAMD-24v3-0-EA_20034606_A1/idats/205346990020_R01C01/205346990020_R01C01_Red.idat",
+
+  "Arrays.read_fingerprint_from_mercury": true,
+  "Arrays.write_fingerprint_to_mercury": true,
 
   "Arrays.bead_pool_manifest_file": "gs://broad-gotc-test-storage/arrays/metadata/GSAMD-24v3-0-EA_20034606_A1/GSAMD-24v3-0-EA_20034606_A1.bpm",
   "Arrays.extended_chip_manifest_file": "gs://broad-gotc-test-storage/arrays/metadata/GSAMD-24v3-0-EA_20034606_A1/GSAMD-24v3-0-EA_20034606_A1.2.0.extended.csv",

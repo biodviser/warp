@@ -4,7 +4,7 @@
 
   "Arrays.sample_alias": "20055 11847",
   "Arrays.sample_id": "SM-EXT5R",
-  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:EXT5R",
+  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:EXT5R_Invalid",
   "Arrays.reported_gender": "NotReported",
   "Arrays.collaborator_participant_id": "8002117365",
   "Arrays.participant_id": "PT-23DDH",
@@ -22,8 +22,8 @@
   "Arrays.green_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSAMD-24v1-0_20011747_A1/idats/201096140037_R07C01/201096140037_R07C01_Grn.idat",
   "Arrays.red_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSAMD-24v1-0_20011747_A1/idats/201096140037_R07C01/201096140037_R07C01_Red.idat",
 
-  "Arrays.fingerprint_genotypes_vcf_file": "gs://broad-gotc-test-storage/arrays/GSAMD-24v1-0_20011747_A1/inputs/201096140037_R07C01/201096140037_R07C01.20055_11847.reference.fingerprint.vcf.gz",
-  "Arrays.fingerprint_genotypes_vcf_index_file": "gs://broad-gotc-test-storage/arrays/GSAMD-24v1-0_20011747_A1/inputs/201096140037_R07C01/201096140037_R07C01.20055_11847.reference.fingerprint.vcf.gz.tbi",
+  "Arrays.read_fingerprint_from_mercury": true,
+  "Arrays.write_fingerprint_to_mercury": true,
 
   "Arrays.bead_pool_manifest_file": "gs://gcp-public-data--broad-references/arrays/GSAMD-24v1-0_20011747_A1/GSAMD-24v1-0_20011747_A1.bpm",
   "Arrays.extended_chip_manifest_file": "gs://gcp-public-data--broad-references/arrays/GSAMD-24v1-0_20011747_A1/GSAMD-24v1-0_20011747_A1.1.3.extended.csv",

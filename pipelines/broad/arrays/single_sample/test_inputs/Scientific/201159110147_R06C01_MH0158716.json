@@ -4,7 +4,7 @@
 
   "Arrays.sample_alias": "MH0158716",
   "Arrays.sample_id": "SM-EUY2M",
-  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:EUY2M",
+  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:EUY2M_Invalid",
   "Arrays.reported_gender": "Male",
   "Arrays.collaborator_participant_id": "MH0158716",
   "Arrays.participant_id": "PT-2444W",
@@ -21,6 +21,9 @@
 
   "Arrays.green_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSA-24v1-0_A1/idats/201159110147_R06C01/201159110147_R06C01_Grn.idat",
   "Arrays.red_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSA-24v1-0_A1/idats/201159110147_R06C01/201159110147_R06C01_Red.idat",
+
+  "Arrays.read_fingerprint_from_mercury": true,
+  "Arrays.write_fingerprint_to_mercury": true,
 
   "Arrays.bead_pool_manifest_file": "gs://gcp-public-data--broad-references/arrays/GSA-24v1-0_A1/GSA-24v1-0_A1.bpm",
   "Arrays.extended_chip_manifest_file": "gs://gcp-public-data--broad-references/arrays/GSA-24v1-0_A1/GSA-24v1-0_A1.1.3.extended.csv",

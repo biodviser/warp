@@ -3,7 +3,7 @@
 
   "Arrays.sample_alias": "243320543",
   "Arrays.sample_id": "SM-K5P4A",
-  "Arrays.sample_lsid": "org.broadinstitute:crsp:K5P4A",
+  "Arrays.sample_lsid": "org.broadinstitute:crsp:K5P4A_Invalid",
   "Arrays.reported_gender": "Male",
   "Arrays.collaborator_participant_id": "NA24149_2_SM-GZQPM",
   "Arrays.participant_id": "NA24149_2_SM-GZQPM",
@@ -15,6 +15,9 @@
 
   "Arrays.green_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GDA-8v1-0_A5/idats/204520870050_R06C01/204520870050_R06C01_Grn.idat",
   "Arrays.red_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GDA-8v1-0_A5/idats/204520870050_R06C01/204520870050_R06C01_Red.idat",
+
+  "Arrays.read_fingerprint_from_mercury": true,
+  "Arrays.write_fingerprint_to_mercury": true,
 
   "Arrays.bead_pool_manifest_file": "gs://broad-gotc-test-storage/arrays/metadata/GDA-8v1-0_A5/GDA-8v1-0_A5.bpm",
   "Arrays.extended_chip_manifest_file": "gs://broad-gotc-test-storage/arrays/metadata/GDA-8v1-0_A5/GDA-8v1-0_A5.1.5.extended.csv",

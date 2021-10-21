@@ -4,7 +4,7 @@
 
   "Arrays.sample_alias": "MH 0178994",
   "Arrays.sample_id": "SM-EUY3Y",
-  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:EUY3Y",
+  "Arrays.sample_lsid": "broadinstitute.org:bsp.prod.sample:EUY3Y_Invalid",
   "Arrays.reported_gender": "Female",
   "Arrays.collaborator_participant_id": "MH0178994",
   "Arrays.participant_id": "PT-2416X",
@@ -21,6 +21,9 @@
 
   "Arrays.green_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSA-24v1-0_A1/idats/201159110147_R09C01/201159110147_R09C01_Grn.idat",
   "Arrays.red_idat_cloud_path": "gs://broad-gotc-test-storage/arrays/GSA-24v1-0_A1/idats/201159110147_R09C01/201159110147_R09C01_Red.idat",
+
+  "Arrays.read_fingerprint_from_mercury": true,
+  "Arrays.write_fingerprint_to_mercury": true,
 
   "Arrays.arrays_metadata_path": "gs://broad-gotc-test-storage/arrays/metadata/",
 
