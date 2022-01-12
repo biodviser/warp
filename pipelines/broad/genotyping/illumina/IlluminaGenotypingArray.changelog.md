@@ -1,7 +1,58 @@
+# 1.12.1
+2022-01-11
+
+* Updated picard and picard-related tasks to Picard 2.26.10
+    * Address log4shell security issue (updated to log4j 2.17.1)
+
+# 1.12.0
+2021-11-17
+
+* Updated to Picard 2.26.4
+    * Changed GtcToVcf to account for zeroed-out SNPs in the calculation of GTC Call Rate. Previously the GTC Call Rate (which is stored in the VCF header) had been copied directly from the Illumina GTC File. However Illumina's calculation of the GTC Call Rate does not account for (ignore) zeroed-out SNPs, so we recalculate the GTC Call Rate, ignoring zeroed-out SNPs and use this.
+    * Fixed a bug in GtcToVcf where 'SOURCE' fields read from the Illumina manifest that contain a semicolon may be incorrectly populated in the INFO field of the VCF.
+* Lowered call rate threshold used in autocall to determine if a gender call can be made in order to compensate for Illumina's GTC Call Rate not accounting for zeroed-out SNPs.
+
+# 1.11.7
+2021-11-10
+
+* Added Xmx flag (maximum heap size) to all tasks with java commands
+
+# 1.11.6
+2021-10-01
+
+* Changed the way the version of autocall is returned for the case of arrays that fail gencall
+* Updated Illumina IAAP Autocall and Zcall docker images to address critical vulnerability
+
+# 1.11.5
+2021-09-08
+
+* Changed default threshold for passing control (HapMap) genotype concordance from 0.98 to 0.95
+
+# 1.11.4
+2021-08-10
+
+* Updated GtcToVcf task in IlluminaGenotypingArrayTasks to escape fingerprint file names.
+* Updated Illumina IAAP Autocall to alpine base image
+
+# 1.11.3
+2021-08-02
+
+* Increased the version number to make new release tag for Dockstore 
+
+# 1.11.2
+2021-07-19
+
+* Make chip_well_barcode and analysis_version_number available as outputs of the WDL.
+
+# 1.11.1
+2021-05-19
+
+* Update version of Picard to 2.25.5 in order to allow GtcToVcf to support new enums in that buid (updated all picard tools to use this version)
+
 # 1.11.0
 2020-10-01
 
-* Added use of BafRegress to the pipeline.  BafRegress detects and estimates sample contamination using B allele frequency data from Illumina genotyping arrays using a regression model.
+* Added use of BafRegress to the pipeline.  BafRegress detects and estimates sample contamination using B allele frequency data from Illumina genotyping arrays using a regression model
 
 # 1.10.0
 2020-08-18
@@ -11,8 +62,7 @@
 # 1.9
 2020-07-31
 
-* Fixed a bug in CollectArraysVariantCallingMetrics and GenotypeConcordance where the metrics file is 
-  being parsed incorrectly if there is a space in the sample name value 
+* Fixed a bug in CollectArraysVariantCallingMetrics and GenotypeConcordance where the metrics file is being parsed incorrectly if there is a space in the sample name value 
   
 # 1.8.1
 2020-07-31

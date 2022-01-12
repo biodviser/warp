@@ -1,3 +1,42 @@
+# 5.1.2
+2021-11-19 (Date of Last Commit)
+
+* Updated STARsoloFastq to use 'output_bam_basename' to name the aligned bam. This is consistent with versions 4.2.7 and older
+
+# 5.1.1
+2021-09-13 (Date of Last Commit)
+
+* Updated Picard.wdl and LoomUtils.wdl for Single Nucleus SmartSeq2. These changes do not affect Optimus
+
+# 5.1.0
+2021-09-10 (Date of Last Commit)
+
+* Added the option "--soloBarcodeReadLength 0" to STARsoloFastq task to ignore Barcode + UBI read of incorrect length
+
+# 5.0.0
+2021-08-30 (Date of Last Commit)
+
+* Replaced STAR alignment with STARsolo and modified the structure of the WDL to utilize the UMI and barcode correction from STARsolo. In the new implementation of Optimus, STARsolo uses the FASTQ file as input and directly creates a count matrix file and a BAM file. No updates have been made to the inputs or outputs. The outputs for this version are identical to the outputs for the previous Optimus version. 
+* Updated GoTC base image to AppSec approved 
+* Updated BWA version for GoTC image from 0.7.15.r1140 to 0.7.15
+
+# 4.2.7
+2021-08-02 (Date of Last Commit)
+
+* Increased the version number to make new release tag for Dockstore 
+
+# 4.2.6
+2021-07-19 (Date of Last Commit)
+
+* Updated SmartSeq2 to accommodate spaces in input_name
+
+# 4.2.5
+
+2021-05-24 (Date of Last Commit)
+
+* Updated Picard task to support single nucleus SS2. Changes do not affect Optimus
+* We also updated STAR to 2.7.9a
+
 # 4.2.4
 
 2021-04-07 (Date of Last Commit)
